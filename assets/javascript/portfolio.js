@@ -38,31 +38,31 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'Lummit',
-      link: '76561197960276740',
+      name: 'legalpabloescobar',
+      link: 'pQ2swH2vBN',
     },
     {
-      name: 'Neso',
-      link: '76561198193201687',
+      name: 'ak gaming',
+      link: 'xpEE28dkEV',
     },
     {
-      name: 'loljuxd',
-      link: '76561198016198032',
+      name: 'mastercheif',
+      link: 'noserverformaster',
     },
     {
-      name: 'Lost',
-      link: '76561199079530557',
+      name: 'snoopy',
+      link: 'noserverforsnoopy',
     },
     {
-      name: 'mannin',
-      link: '76561197975672336',
+      name: 'ultonlinegamer',
+      link: 'noserverforultonlinegamer',
     },
   ];
 
   for (let i in links) {
     let link = links[i];
 
-    $('#marquee').append(`<a href="https://steamcommunity.com/profiles/${link.link}" target="_BLANK">${link.name}</a>`);
+    $('#marquee').append(`<a href="https://discord.gg/${link.link}" target="_BLANK">${link.name}</a>`);
 
     link = $('#marquee').children('a').last();
 
@@ -75,7 +75,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['Lummit', 'Neso', 'loljuxd', 'Vez', 'mannin', '=', 'obnoxious.club', 'Song name: KUSO GVKI - Cinnamon (feat. Apfel) (splash! Mag Premiere)']);
+  app.titleChanger(['SlavicJedi', 'Discord God', 'rip the com', 'stacked racks', 'amazon hitter', '=', 'slavicjedi.club', 'Song name: Gangstas Paradise - Coolio']);
   app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
 });
 
@@ -110,7 +110,7 @@ $('html').on('contextmenu', (event) => {
   img.src = 'assets/others/trollface.jpg';
   img.width = 64;
   img.height = 64;
-  img.alt = 'obnoxious.club';
+  img.alt = 'slavicjedi.club';
   img.style = `position: absolute; left: ${event.pageX}px; top: ${event.pageY}px; z-index: 10`;
   img.className = `troll ${trollfaceLight}`;
 
