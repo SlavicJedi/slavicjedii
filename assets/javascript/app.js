@@ -12,12 +12,12 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['Exchanges at %8', 'Discord Tokens', 'SMS Verification $2', 'OG member', 'custom emails', 'ex-vective staff'];
+  brandDescription = ['Exchanges at %8', 'Discord Tokens', 'SMS Verification $2', 'OG member', 'custom emails', 'Proffesional Bag Chaser'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
 
-    delay = delay || 2000;
+    delay = delay || 4000;
 
     let counter = 0;
 
