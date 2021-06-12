@@ -54,6 +54,10 @@ $(document).ready(() => {
       link: 'noserverforsnoopy',
     },
     {
+      name: 'quica',
+      link: 'https://discord.gg/gnPaCPnXrv',
+    },
+    {
       name: 'ultonlinegamer',
       link: 'noserverforultonlinegamer',
     },
